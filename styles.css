@@ -1,0 +1,545 @@
+body {
+    background-image: url(./images/bg-header-desktop.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: "Bai Jamjuree", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+/* HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(210, 10%, 33%);
+    font-weight: bold;
+
+}
+
+
+/* TITTLE */
+
+.page{
+    padding-top: 140px;
+    padding-bottom: 120px;
+}
+
+.tittleheading{
+    padding: 20px;
+
+}
+
+.tittletext{
+    margin-left: 200px;
+    width: 65%;
+
+}
+
+.buttontittle {
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 10px 15px 5px 15px;
+    background-color: #26BAA4;
+    box-shadow: 0 3px 0 0 #1D8C7B;
+    border: solid #1c7568 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+ 
+.buttontittle:hover {
+    background: hsl(171, 44%, 55%);
+    box-shadow: 0 .3em .5em  hsl(171, 80%, 74%);
+    border: solid #3965A7 0;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.buttontittlemac {
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 10px 15px 5px 15px;
+    background-color: #3D94F6;
+    box-shadow: 0 3px 0 0 #0059A0;  
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+.buttontittlemac:hover {
+    background: hsl(233, 100%, 75%);
+    box-shadow: 0 .3em .5em  #0059A0;  
+    border: solid #337FED 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.text2{
+    margin-left: 200px;
+    width: 65%;
+    padding-top: 15px;
+}
+
+
+/* Second section */
+
+.imgpc{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+/* 
+.content{
+    text-align: left;
+} */
+
+.snippet-content-section{
+    display: flex;
+    align-items:center;
+    gap:6em;
+    margin:4em 0 0 -5%;
+
+}
+.snippet-content-details{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left;
+}
+
+.snippet-details-para{
+    width: 55%;
+}
+
+/* Clipboard */
+
+.access{
+    text-align: center;
+    display: block;
+    padding: 7% 0;     
+}
+
+.cliptext{
+    text-align: center;
+    padding: 1% 25% 3%;
+}
+
+/* Features */
+.features{
+    display: flex;
+    text-align: center;
+    padding: 5% 5% 0 5%;
+}
+
+.features2{
+    display: flex;
+    text-align: center;
+    padding: 5% 5% 0 0;
+}
+
+.supertext{
+    padding-top: 1%;
+}
+
+.fea1, .fea2, .fea3{
+width: 40%;}
+
+.featitle{
+    padding-top: 5%;
+    
+    
+}
+
+.featitle1{
+    padding-top: 12px;
+
+}
+
+
+/* LOGOS */
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 7%;
+}
+
+a:hover, svg:hover{
+    transform: scale(1.05);
+    color: red;
+}
+
+/* CLIPBOARD */
+
+.clipboard{
+    text-align: center;
+    padding: 5%;
+}
+
+.supertext{
+    padding-top: 1%;
+    display: block;
+}
+
+/* FOOTER */
+.attribution { font-size: 11px; text-align: center; margin-top: 16px;margin-bottom: 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+.linksfoot{
+    text-decoration: none;
+
+}
+
+.logoC{
+    width: 5%;
+}
+
+.footerspace{
+    padding: 15px 80px 15px 80px;
+
+}
+
+.linksfoot:hover{
+    color: #26BAA4;
+}
+.linksend{
+    display: flex;
+    text-align: left;
+    list-style: none;
+    padding-top: 20px;}
+
+#feet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 207, 207);
+    padding: 0 6rem;
+
+}
+
+.social_links{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.icon1:hover{
+    fill-opacity: 0.8;
+}
+
+.icon2{
+    padding: 0 1rem;
+
+}
+
+.icon2:hover{
+    fill-opacity: 0.8;
+}
+
+.icon3:hover{
+    fill-opacity: 0.8;
+}
+.linksfoot{
+    display: block;
+}
+
+ul{
+    padding-right: 20px;
+}
+.featext{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+@media (max-width:1024px) { 
+    .foto{
+        width: 90%;
+        padding-left: 10%;
+    }
+    .featext{
+        margin: auto;
+        width: 65%;
+    }
+    
+    .featitle, .featitle1{
+        padding: 5%;
+    }
+    .featitle{
+        padding-top: 23px;
+
+    }
+    .mobileLogos{
+        display: flex;
+        width: 70%;
+        padding-top: 40%;
+        padding-bottom: 40%;       
+       
+    } 
+
+    .logoC{
+        padding-top: 5%;
+        width: 10%;
+    }
+    .links2{
+        width: 270px;
+    }
+
+    .linksfoot{
+        width: 130px;
+    }
+
+    #feet{
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+    .linksend{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+    }
+
+    .social_links{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+   
+} 
+
+@media (max-width:768px) {
+    .devices{
+        width:80%;
+    }
+
+    .linksend{
+        display: block;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .links2{
+        margin: auto;
+        width: auto;
+    }
+    .linksfoot{
+        width: auto;
+    }
+
+    .snippet-details-para{
+        width: 75%;
+    }
+    .foto{
+        padding-left: 15%;
+    }
+
+    .text2{
+        margin: auto;
+    }
+
+    .tittletext{
+        margin: auto;
+    }
+}
+
+@media (max-width:425px) {
+    body{
+        background-image: url(./images/bg-header-mobile.png);
+        background-repeat:no-repeat;
+        background-size:contain; 
+        background-position: top;
+        max-width: 100%;
+        /* width:fit-content; */
+        
+    }
+
+    .tittleheading{
+        font-size: 2rem;
+        padding: 10%;
+    
+    }
+
+    .tittletext{
+        margin: 5%;
+        width: 90%;
+    }
+    .buttontittlemac {
+        margin-top: 2%;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .buttontittle {
+        margin-top: 2%;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .btn{
+        width: 80%;
+    
+    }
+
+    .text2{
+        margin-left: 13%;
+        width: 75%;
+        padding-top: 5%;
+    }
+
+    .imgpc{
+        display: block;
+
+    }
+    
+    .snippet-content-section{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .snippet-content-details{
+        display: block;
+        text-align: center;
+    }
+
+    .snippet-details-para{
+        width: 80%;
+        margin: auto;
+    }
+    .foto{
+        width: 100%;
+        height: auto;
+        padding: 10%;
+    }
+    .middlefea{
+        margin-top:10%;
+        margin-bottom: 10%;
+    }
+    .features2{
+        display: block;
+        margin: auto;
+        margin: 5%;
+    }
+    .accessText{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 5%;
+        padding-top: 50%;
+    }
+    .cliptext{
+        width: 90%;
+        margin: auto;
+    }
+
+    .devices{
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .supercharge{
+        width: 70%;
+        margin: auto;
+        margin-top: 20%;
+    }
+    
+    .features{
+        display: block;
+        padding: 0;  
+        margin: auto;
+        margin-top: 30%;
+    }
+    .fea1, .fea2, .fea3{
+        padding-bottom: 10%;
+        width: 100%;
+    }
+    .featitle{
+    padding-top: 10%;
+    }
+
+    .featitle1{
+    padding-top: 10%;
+
+    }
+
+    .featext{
+        margin: auto;
+        width: 85%;
+    }
+   
+    .logos{
+        display: block;
+
+    }
+    .mobileLogos{
+        width: 50%;
+        margin: auto;
+        padding-top: 0;
+    }
+
+    .mobileH2{
+        padding: 0 10%;
+        padding-top: 250px;
+
+    }
+    .cliptext{
+        padding: 1% 5% 3%;
+
+    }
+    .downloadsDown{
+        padding-bottom: 250px;
+    }
+
+    #feet{
+        display: block;
+        text-align: center;
+        width: auto;
+        padding-right: 0;
+        padding-left: 0;
+
+    }
+
+    .logoC{
+        width: 20%;
+        padding-top: 15%;
+    }
+
+    .linksend{
+        display: block;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .links2{
+        margin: auto;
+        width: auto;
+    }
+    .linksfoot{
+        width: auto;
+    }
+    .social_links{
+        display: flex;
+        padding-bottom: 15%;
+        padding-top: 5%;
+        justify-content: space-evenly;
+    }
+}
+
